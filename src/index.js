@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
+import {Provider} from "react-redux";
 
 import store from "./redux/store";
 
-import Main from "./page/Main";
+import Index from "./page/index";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <Provider store={store}>
-    <Main />
+      <Index/>
   </Provider>,
   rootElement
 );
